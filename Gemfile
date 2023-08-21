@@ -82,3 +82,4 @@ gem "jquery-rails"
 gem "cssbundling-rails", "~> 1.2"
 
 gem "jsbundling-rails", "~> 1.1"
+gem 'devise-bootstrap-views', '~> 1.0'
