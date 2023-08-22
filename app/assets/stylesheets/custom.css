@@ -1,5 +1,11 @@
 
-
+/*
 .navbar {
     background-color: rgb(0, 136, 57) !important;
+}
+*/
+
+.search-area {
+    padding-top: 50px;
+    color: blue;
 }
