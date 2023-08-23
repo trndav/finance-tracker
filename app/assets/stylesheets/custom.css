@@ -6,6 +6,20 @@
 */
 
 .search-area {
-    padding-top: 50px;
+    padding-top: 30px;
     color: blue;
+}
+
+.no-right-padding {
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.no-left-padding {
+    padding-left: 0px !important;
+    padding-top: 5px !important;
+}
+
+.results-block {
+    display: inline-block;
 }

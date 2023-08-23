@@ -84,3 +84,4 @@ gem "cssbundling-rails", "~> 1.2"
 gem "jsbundling-rails", "~> 1.1"
 gem 'devise-bootstrap-views', '~> 1.0'
 gem 'iex-ruby-client'
+gem "font-awesome-rails"
