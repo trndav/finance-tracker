@@ -29,7 +29,8 @@
               </ul>
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <%= link_to("Logout", destroy_user_session_path, data: { turbo_method: :delete }, class: "btn btn-xs logout-button") %>
+                  <%= link_to("Logout", destroy_user_session_path, data: { turbo_method: :delete }, 
+                  class: "btn btn-xs logout-button") %>
                 </li>
               </ul>
               <form class="d-flex" role="search">

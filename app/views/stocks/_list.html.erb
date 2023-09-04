@@ -1,5 +1,5 @@
 
-<% if !@tracked_stocks.empty? %>
+
     <div class="row">
         <div class="col-9">
             <table class="table table-bordered table-hover">
@@ -12,6 +12,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                <% if @tracked_stocks.present? %>
                     <% @tracked_stocks.each do |stock| %>
                         <tr>
                             <th scope="row"><%= stock.ticker %></th>
@@ -19,9 +20,9 @@
                             <td><%= stock.last_price %></td>
                             <td>Action placeholder</td>
                         </tr>  
-                    <% end %>              
+                    <% end %>  
+                <% end %>
                 </tbody>
             </table>
         </div>
     </div>
-<% end %>
