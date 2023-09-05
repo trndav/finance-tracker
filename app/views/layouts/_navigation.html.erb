@@ -24,7 +24,9 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  <%= link_to edit_user_registration_path, class: "nav-link" do %>
+                    <%= fa_icon "edit" %> Edit Profile
+                  <% end %>
                 </li>
               </ul>
               <ul class="navbar-nav ml-auto">
