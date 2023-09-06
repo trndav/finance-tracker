@@ -11,18 +11,11 @@
                 <li class="nav-item <%= 'active' if request.path == my_portfolio_path %>">
                   <%= link_to "Portfolio", my_portfolio_path, class: "nav-link" %>
                 </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
+                
+                <li class="nav-item <%= 'active' if request.path == my_portfolio_path %>">
+                  <%= link_to "Friends", my_friends_path, class: "nav-link" %>
                 </li>
+
                 <li class="nav-item">
                   <%= link_to edit_user_registration_path, class: "nav-link" do %>
                     <%= fa_icon "edit" %> Edit Profile
