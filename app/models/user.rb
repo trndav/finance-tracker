@@ -11,7 +11,7 @@ class User < ApplicationRecord
   def stock_already_tracked?(ticker_symbol)
     stock = Stock.check_db(ticker_symbol)
     return false unless stock
-    stock.where(id: stock.id).exist?
+    
   end
 
   def under_stock_limit?
